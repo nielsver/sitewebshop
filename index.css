@@ -1,0 +1,119 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color:black ;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    
+}
+div#header h1 {
+
+    float: left;
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-left:50px;
+    padding-right:0px;
+ 
+    
+    
+}
+div#header input {
+    background-color: black;
+    color: #30CFD0;
+    height: 100px;
+    width: 700px;
+    font-size: xx-large;
+    border: none;
+}
+nav {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+nav a {
+    border: 2px solid;
+    border-image: linear-gradient(35deg, rgb(1, 110, 218) 50%,rgb(217, 0, 192) 50%) 2;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: rgb(217, 0, 192);
+    color: white;
+}
+
+
+div#article {
+    clear: left;
+    margin-top: 0px;
+    padding-top: 0px;
+     display:flex;
+     width: 25%;
+     float: left;
+    
+    
+    
+   /*https://trishalim.hashnode.dev/css-tricks-to-create-that-dark-futuristic-web3-look#heading-2-gradient-background-effect */
+
+}
+
+div#article h2 {
+    font-size: x-large;
+    font-weight: bolder;
+    margin-left: 50px;
+    padding-top: 20px;
+    margin-right: 70px;
+    background: linear-gradient(to right, #30CFD0, #c43ad6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+
+}
+div#article p {
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    font-size: larger;
+    height: 100%;
+    background: linear-gradient(to right, #30CFD0, #c43ad6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    
+    
+}
+aside img {
+    border-radius: 20px;
+    float: right;
+    margin-right: 100px;
+    width: 50%;
+    margin-bottom: 100px;
+}
+footer {
+    clear: both;
+    margin-top: 100px;
+}
+
+footer p {
+
+    padding: 20px;
+    font-weight: 500;
+    float: bottom;
+    font-size: medium;
+    text-align: center;
+}

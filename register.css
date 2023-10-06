@@ -1,0 +1,59 @@
+.knop{
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    background-color: green;
+    opacity: 0.8;
+    cursor: pointer;
+    margin-right: 50px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+}
+html {
+    background-color: black;
+    color:white
+}
+h1 {
+    font-size: xxx-large;
+    text-align: center;
+    margin:50px;
+    color: rgb(216, 29, 216);
+}
+form {
+    padding: 16px;
+    text-align: center;
+}
+input {
+    margin-bottom: 50px;
+    border-color: black;
+    border-bottom-color: white ;
+    color: white;
+    background-color: black;
+}
+.knop:hover {
+    background-color: blue;
+}
+footer {
+    clear: both;
+    margin-top: 100px;
+}
+#submit {
+    width: 30%;
+    border-radius: 0px;
+}
+
+footer p {
+
+    padding: 20px;
+    font-weight: 500;
+    float: bottom;
+    font-size: medium;
+    text-align: center;
+    color: white;
+}
+p {
+    text-align: center;
+    font-size: x-large;
+    color: red;
+}

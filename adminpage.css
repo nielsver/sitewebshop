@@ -1,0 +1,132 @@
+html {
+    background-color: #33ccff;
+}
+h1 {
+    font-size: xxx-large;
+    text-align: center;
+    margin-top: 50px;
+}
+h2 {
+    font-size: x-large;
+}
+#productform {
+    text-align: center;
+    float: left;
+    margin-top: 50px;
+    margin-left: 10%;
+}
+#gebruikerform {
+    text-align: center;
+    float: right;
+    margin-top: 50px;
+    margin-right: 10%;
+}
+input {
+    width: 400px;
+    height: 25px;
+    box-sizing: content-box;
+    border-radius: 20px;
+}
+div#back a {
+    border: solid black 2px;
+    background-color: rgb(228, 41, 53);
+    width: 100px;
+    margin: auto;
+    font-size: x-large;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    height: 30px;
+
+}
+div#back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    clear: both;
+    margin-bottom: 100px;
+    
+}
+#back a:hover {
+    color: blue;
+}
+
+a:hover{
+    color: aqua;
+}
+#submit {
+    font-size: normal;
+    height: 40px;
+    width: 100px;
+}
+#submit:hover{
+    background-color: peru;
+}
+form p {
+    text-align: center;
+    font-size: x-large;
+    color: red;
+}
+p {
+    text-align: center;
+    margin-bottom: 50px;
+}
+#product p {
+    color: #000;
+}
+
+table, hr{
+    width: 100%;
+}
+table a:hover {
+    color: red;
+}
+table {
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+#gebruiker p {
+    color: #000;
+}
+#submit1 {
+    font-size: normal;
+    height: 40px;
+    width: 100px;
+}
+#submit1:hover{
+    background-color: peru;
+}
+#gebruiker input {
+    margin-bottom: 100px;
+}
+#product input {
+    margin-bottom: 100px;
+}
+
+#productaa {
+    margin-bottom: 100px;
+}
+#productaa p{
+    color: #000;
+} 
+table, th, td {
+    text-align: center;
+}
+table, hr {
+    border: #000 1px solid;
+}
+form#center {
+    float: center;
+    text-align: center;
+    margin-bottom: 100px;
+    padding-bottom: 50px;
+}
+#submit3 {
+    font-size: normal;
+    height: 40px;
+    width: 100px;
+}
+#submit3:hover{
+    background-color: peru;
+}

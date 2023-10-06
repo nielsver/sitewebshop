@@ -1,0 +1,97 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    color:white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+ /*https://trishalim.hashnode.dev/css-tricks-to-create-that-dark-futuristic-web3-look#heading-2-gradient-background-effect */ 
+header h1 {
+    margin:50px;
+    font-size: xxx-large;
+    font-weight: bolder;
+    float: left;
+    background: linear-gradient(to right, #c43ad6, #30CFD0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+nav a{
+    border: 2px solid;
+    border-image: linear-gradient(to right, rgb(1, 110, 218) 50%,rgb(217, 0, 192) 50%) 2;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+}
+nav a:hover {
+    background-color: rgb(217, 0, 192);
+    color: white;
+}
+#naam{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 30px;
+}
+#password{
+    margin-bottom: 30px;
+    height: 30px;
+}
+form {
+    margin-left: 20%;
+    font-size: large;
+    
+}
+#knop{
+    border-radius: 20px;
+    height: 20px;
+    height: 40px;
+    cursor: pointer;
+    background-color: greenyellow;
+}
+#knop:hover{
+    background-color: lightseagreen;
+}
+article {
+    clear: both;
+}
+input {
+    width: 30%;
+    height: 40%;
+}
+footer {
+    clear: both;
+    margin-top: 100px;
+}
+form a{
+    color: #c43ad6;
+}
+p {
+    color: red;
+    font-size: x-large;
+    text-align: right;
+    margin-right: 200px;
+}
+a:hover {
+    color: #30CFD0;
+}
+footer p {
+
+    padding: 20px;
+    font-weight: 500;
+    float: bottom;
+    font-size: medium;
+    text-align: center;
+    color: white;
+    margin-right: 0px;
+}

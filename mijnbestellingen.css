@@ -1,0 +1,47 @@
+html {
+    background-color: beige;
+}
+table, th, td {
+    border: 1px solid;
+    text-align: center;
+}
+table {
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 80%;
+    float: right;
+}
+h1 {
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 10%;
+}
+header h1 {
+    font-size: xx-large;
+    text-align: center;
+    margin:5%;
+}
+nav {
+    border-right: 4px solid black;
+    position: absolute;
+}
+nav a {
+    clear: both;
+    float: left;
+    margin-top: 10px;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-left: 30px;
+    text-decoration: none;
+    color: black;
+    display: inline;
+    
+    font-weight: bold;
+}
+nav a:hover {
+    background-color: rgb(217, 0, 192);
+    color: white;
+}
